@@ -19,19 +19,9 @@ print("******Simultaneous equations solver******")
 print("-----------------------------------------")
 print("-!your LINEAR equation set must be a two-variable set")
 eq_type_input = "two"
-# try:
-#     print("--------------------------------------")
-#     print("-|your LINEAR equation set must be a two-variable set")
-#     eq_type_input = str(input("Is your LINEAR equation set a three- or two-variable set?: "))
-#     print(">processing your inputs, get ready to feed in your equations")
-#     time.sleep(1)
-# except Exception as b:
-#     print("{}".format(b))
-# print("<passed! feed in your equations")
 
 # acceptable answers to above
 acceptable_strings_types = ["Two", "two", "2"]
-#"three", "3", "Three", 
 
 # conditioning the answers and setting up the eqaution string input
 equation_set = []
